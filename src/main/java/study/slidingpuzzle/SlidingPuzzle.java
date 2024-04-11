@@ -6,7 +6,7 @@ package study.slidingpuzzle;
 
 /**
  *
- * @author Acer
+ * @author Dilmi
  */
 public class SlidingPuzzle {
 
