@@ -82,4 +82,21 @@ public class GraphAdjacencyList implements Graph {
         }
         System.out.println();
     }
+
+    public void printGraphAsGrid() {
+        System.out.println("Graph: " + graphName + " as a grid:");
+
+        for (int i = 0; i < numberOfVertices; i++) {
+            for (int j = 0; j < numberOfVertices; j++) {
+                if (adjacencyList.get(i).contains(j)) {
+                    System.out.print("0 ");
+                } else {
+                    System.out.print(". ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
 }
